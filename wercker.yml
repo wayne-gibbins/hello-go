@@ -46,7 +46,7 @@ build:
 
 push-hub:
   steps:
-    - internal-push:
+    - internal-dockerpush:
         username: $USERNAME
         password: $PASSWORD
         tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
