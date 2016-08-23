@@ -44,3 +44,12 @@ build:
         code: |
           go test ./...
 
+push-hub:
+  steps:
+    - internal-push:
+        username: $USERNAME
+        password: $PASSWORD
+        tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
+        repository: waynegibbins/hello-go
+
+
