@@ -1,4 +1,4 @@
-//testvpp 4.1
+//testvpp 4.2
 package main
 
 import (
