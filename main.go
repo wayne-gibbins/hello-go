@@ -1,4 +1,4 @@
-//testvpp 4.3
+//testvpp live 1
 package main
 
 import (
